@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Nos Traducteurs</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="logo">🌐 Manar Traduction</div>
+    <nav>
+      <a href="index.html">Accueil</a>
+      <a href="traducteurs.html">Traducteurs</a>
+      <a href="api.html">API</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Nos Traducteurs</h1>
+    <p>Sélection par spécialité et langue</p>
+  </section>
+
+  <section class="cards">
+    <div class="card">
+      <h3>Yasmine B.</h3>
+      <p>Juridique • Français / Arabe</p>
+      <a href="#" class="btn-primary">Réserver</a>
+    </div>
+    <div class="card">
+      <h3>Omar K.</h3>
+      <p>Médical • Français / Anglais</p>
+      <a href="#" class="btn-primary">Réserver</a>
+    </div>
+    <div class="card">
+      <h3>Lina M.</h3>
+      <p>Business • Arabe / Anglais</p>
+      <a href="#" class="btn-primary">Réserver</a>
+    </div>
+  </section>
+
+  <footer>
+    <p>Contact : manarsbr9@gmail.com</p>
+  </footer>
+</body>
+</html>
