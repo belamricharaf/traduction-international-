@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>API de Traduction</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="logo">🌐 Manar Traduction</div>
+    <nav>
+      <a href="index.html">Accueil</a>
+      <a href="traducteurs.html">Traducteurs</a>
+      <a href="api.html">API</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>API Traduction</h1>
+    <p>Connectez notre service à votre application</p>
+  </section>
+
+  <section class="api-doc">
+    <h2>Exemple d’appel API</h2>
+    <pre>
+POST https://api.manartraduction.dz/translate
+Headers:
+Authorization: Bearer VOTRE_CLE_API
+Content-Type: application/json
+
+Body:
+{
+  "source_language": "fr",
+  "target_language": "en",
+  "text": "Bonjour"
+}
+    </pre>
+
+    <h3>Réponse JSON</h3>
+    <pre>
+{
+  "translated_text": "Hello"
+}
+    </pre>
+  </section>
+
+  <footer>
+    <p>Besoin d'aide ? Écrivez à manarsbr9@gmail.com</p>
+  </footer>
+</body>
+</html>
